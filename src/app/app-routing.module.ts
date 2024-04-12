@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { Error404PageComponent } from './shared/pages/error404-page/error404-page.component';
-import { AuthGuard } from './auth/guard/auth.guard';
 import { PublicGuard } from './auth/guard/public.guard';
-
+import { AuthGuard } from './auth/guard/auth.guard';
 
 // dominio.com/
 const routes: Routes = [
